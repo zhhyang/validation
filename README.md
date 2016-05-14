@@ -17,7 +17,7 @@ It takes only 3 steps to use the plugin:
 <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
 
 <!-- FormValidation CSS file -->
-<link rel="stylesheet" href="/dist/css/validation.min.css">
+<link rel="stylesheet" href="/dest/css/validation.min.css">
 
 <!-- jQuery v1.9.1 or higher -->
 <script type="text/javascript" src="/jquery/jquery.min.js"></script>
@@ -26,14 +26,14 @@ It takes only 3 steps to use the plugin:
 <script src="/bootstrap/js/bootstrap.min.js"></script>
 
 <!-- Validation plugin and the class supports validating Bootstrap form -->
-<script src="/dist/js/validation.min.js"></script>
-<script src="/dist/js/framework/bootstrap.min.js"></script>
+<script src="/dest/js/validation.min.js"></script>
+<script src="/dest/js/framework/bootstrap.min.js"></script>
 ```
 >Don't confuse bootstrap(.min).js file provided by the Bootstrap framework with bootstrap(.min).js provided by Validation which is placed inside the /dist/js/framework directory.They are two different files and both of them need to be included as mentioned above.
 
 If you want to use the default message translated in the language package, then finally include it:
 ```javascript
-<script src="/dist/js/language/zh_CN.min.js"></script>
+<script src="/dest/js/language/zh_CN.min.js"></script>
 ```
 >You don't need to require the English package because it is already included in the plugin. The package is available here just for translating into other languages.
 
